@@ -3,7 +3,10 @@
   "description": "An overlay that displays additional information or options when triggered.",
   "description_zh": "An overlay that displays additional information or options when triggered.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Popover.Trigger",
+    "Popover.Positioner"
+  ],
   "filename": "PopoverRoot",
   "link": "https://ark-ui.com/vue/docs/components/popover",
   "link_zh": "https://ark-ui.com/vue/docs/components/popover",

@@ -3,7 +3,9 @@
   "description": "A component that generates a QR code based on the provided data.",
   "description_zh": "A component that generates a QR code based on the provided data.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "QrCode.Pattern"
+  ],
   "filename": "QRCodeFrame",
   "link": "https://ark-ui.com/vue/docs/components/qr-code",
   "link_zh": "https://ark-ui.com/vue/docs/components/qr-code",

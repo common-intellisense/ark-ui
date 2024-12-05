@@ -1,21 +1,13 @@
 {
-  "name": "ProgressCircular.RootProvider",
+  "name": "Progress.CircleRange",
   "description": "An element that shows either determinate or indeterminate progress.",
   "description_zh": "An element that shows either determinate or indeterminate progress.",
   "slots": [],
   "suggestions": [],
-  "filename": "ProgressCircularRootProvider",
-  "link": "https://ark-ui.com/vue/docs/components/progress-circular",
-  "link_zh": "https://ark-ui.com/vue/docs/components/progress-circular",
+  "filename": "ProgressCircleRange",
+  "link": "https://ark-ui.com/vue/docs/components/progress-linear",
+  "link_zh": "https://ark-ui.com/vue/docs/components/progress-linear",
   "props": {
-    "value": {
-      "default": "",
-      "value": "",
-      "type": "MachineApi<PropTypes>",
-      "description": "",
-      "description_zh": "",
-      "required": true
-    },
     "asChild": {
       "default": "",
       "value": "",

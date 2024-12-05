@@ -3,7 +3,10 @@
   "description": "A component that allows users to draw a signature using a signature pad.",
   "description_zh": "A component that allows users to draw a signature using a signature pad.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "SignaturePad.Label",
+    "SignaturePad.Control"
+  ],
   "filename": "SignaturePadRoot",
   "link": "https://ark-ui.com/vue/docs/components/signature-pad",
   "link_zh": "https://ark-ui.com/vue/docs/components/signature-pad",

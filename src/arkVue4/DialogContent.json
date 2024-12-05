@@ -3,7 +3,11 @@
   "description": "A modal window that appears on top of the main content.",
   "description_zh": "A modal window that appears on top of the main content.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Dialog.Title",
+    "Dialog.Description",
+    "Dialog.CloseTrigger"
+  ],
   "filename": "DialogContent",
   "link": "https://ark-ui.com/vue/docs/components/dialog",
   "link_zh": "https://ark-ui.com/vue/docs/components/dialog",

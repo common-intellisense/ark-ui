@@ -3,7 +3,10 @@
   "description": "A control element that allows for a range of selections.",
   "description_zh": "A control element that allows for a range of selections.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Slider.Track",
+    "Slider.Thumb"
+  ],
   "filename": "SliderControl",
   "link": "https://ark-ui.com/vue/docs/components/slider",
   "link_zh": "https://ark-ui.com/vue/docs/components/slider",

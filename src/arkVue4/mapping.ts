@@ -83,6 +83,7 @@ import ComboboxRootProvider from './ComboboxRootProvider.json'
 import ComboboxTrigger from './ComboboxTrigger.json'
 import DatePickerClearTrigger from './DatePickerClearTrigger.json'
 import DatePickerContent from './DatePickerContent.json'
+import DatePickerContext from './DatePickerContext.json'
 import DatePickerControl from './DatePickerControl.json'
 import DatePickerInput from './DatePickerInput.json'
 import DatePickerLabel from './DatePickerLabel.json'
@@ -117,6 +118,7 @@ import DialogTitle from './DialogTitle.json'
 import DialogTrigger from './DialogTrigger.json'
 import EditableArea from './EditableArea.json'
 import EditableCancelTrigger from './EditableCancelTrigger.json'
+import EditableContext from './EditableContext.json'
 import EditableControl from './EditableControl.json'
 import EditableEditTrigger from './EditableEditTrigger.json'
 import EditableInput from './EditableInput.json'
@@ -140,6 +142,7 @@ import FieldsetRoot from './FieldsetRoot.json'
 import FieldsetRootProvider from './FieldsetRootProvider.json'
 import FieldTextarea from './FieldTextarea.json'
 import FileUploadClearTrigger from './FileUploadClearTrigger.json'
+import FileUploadContext from './FileUploadContext.json'
 import FileUploadDropzone from './FileUploadDropzone.json'
 import FileUploadHiddenInput from './FileUploadHiddenInput.json'
 import FileUploadItem from './FileUploadItem.json'
@@ -192,6 +195,7 @@ import NumberInputRoot from './NumberInputRoot.json'
 import NumberInputRootProvider from './NumberInputRootProvider.json'
 import NumberInputScrubber from './NumberInputScrubber.json'
 import NumberInputValueText from './NumberInputValueText.json'
+import PaginationContext from './PaginationContext.json'
 import PaginationEllipsis from './PaginationEllipsis.json'
 import PaginationItem from './PaginationItem.json'
 import PaginationNextTrigger from './PaginationNextTrigger.json'
@@ -217,26 +221,17 @@ import PopoverRootProvider from './PopoverRootProvider.json'
 import PopoverTitle from './PopoverTitle.json'
 import PopoverTrigger from './PopoverTrigger.json'
 import Presence from './Presence.json'
-import ProgressCircularCircle from './ProgressCircularCircle.json'
-import ProgressCircularCircleRange from './ProgressCircularCircleRange.json'
-import ProgressCircularCircleTrack from './ProgressCircularCircleTrack.json'
-import ProgressCircularLabel from './ProgressCircularLabel.json'
+import ProgressCircle from './ProgressCircle.json'
+import ProgressCircleRange from './ProgressCircleRange.json'
+import ProgressCircleTrack from './ProgressCircleTrack.json'
 import ProgressCircularRange from './ProgressCircularRange.json'
-import ProgressCircularRoot from './ProgressCircularRoot.json'
-import ProgressCircularRootProvider from './ProgressCircularRootProvider.json'
 import ProgressCircularTrack from './ProgressCircularTrack.json'
-import ProgressCircularValueText from './ProgressCircularValueText.json'
-import ProgressCircularView from './ProgressCircularView.json'
-import ProgressLinearCircle from './ProgressLinearCircle.json'
-import ProgressLinearCircleRange from './ProgressLinearCircleRange.json'
-import ProgressLinearCircleTrack from './ProgressLinearCircleTrack.json'
-import ProgressLinearLabel from './ProgressLinearLabel.json'
-import ProgressLinearRange from './ProgressLinearRange.json'
-import ProgressLinearRoot from './ProgressLinearRoot.json'
-import ProgressLinearRootProvider from './ProgressLinearRootProvider.json'
-import ProgressLinearTrack from './ProgressLinearTrack.json'
-import ProgressLinearValueText from './ProgressLinearValueText.json'
-import ProgressLinearView from './ProgressLinearView.json'
+import ProgressLabel from './ProgressLabel.json'
+import ProgressRange from './ProgressRange.json'
+import ProgressRoot from './ProgressRoot.json'
+import ProgressRootProvider from './ProgressRootProvider.json'
+import ProgressTrack from './ProgressTrack.json'
+import ProgressValueText from './ProgressValueText.json'
 import QRCodeFrame from './QRCodeFrame.json'
 import QRCodeOverlay from './QRCodeOverlay.json'
 import QRCodePattern from './QRCodePattern.json'
@@ -250,6 +245,7 @@ import RadioGroupItemText from './RadioGroupItemText.json'
 import RadioGroupLabel from './RadioGroupLabel.json'
 import RadioGroupRoot from './RadioGroupRoot.json'
 import RadioGroupRootProvider from './RadioGroupRootProvider.json'
+import RatingGroupContext from './RatingGroupContext.json'
 import RatingGroupControl from './RatingGroupControl.json'
 import RatingGroupHiddenInput from './RatingGroupHiddenInput.json'
 import RatingGroupItem from './RatingGroupItem.json'
@@ -323,13 +319,14 @@ import SwitchLabel from './SwitchLabel.json'
 import SwitchRoot from './SwitchRoot.json'
 import SwitchRootProvider from './SwitchRootProvider.json'
 import SwitchThumb from './SwitchThumb.json'
+import TabsContent from './TabsContent.json'
+import TabsIndicator from './TabsIndicator.json'
+import TabsList from './TabsList.json'
 import TabsRoot from './TabsRoot.json'
 import TabsRootProvider from './TabsRootProvider.json'
-import TabsTabContent from './TabsTabContent.json'
-import TabsTabIndicator from './TabsTabIndicator.json'
-import TabsTabList from './TabsTabList.json'
-import TabsTabTrigger from './TabsTabTrigger.json'
+import TabsTrigger from './TabsTrigger.json'
 import TagsInputClearTrigger from './TagsInputClearTrigger.json'
+import TagsInputContext from './TagsInputContext.json'
 import TagsInputControl from './TagsInputControl.json'
 import TagsInputHiddenInput from './TagsInputHiddenInput.json'
 import TagsInputInput from './TagsInputInput.json'
@@ -467,6 +464,7 @@ export function getPropsMap() {
     ComboboxTrigger,
     DatePickerClearTrigger,
     DatePickerContent,
+    DatePickerContext,
     DatePickerControl,
     DatePickerInput,
     DatePickerLabel,
@@ -502,6 +500,7 @@ export function getPropsMap() {
     EditableArea,
     EditableCancelTrigger,
     EditableControl,
+    EditableContext,
     EditableEditTrigger,
     EditableInput,
     EditableLabel,
@@ -524,6 +523,7 @@ export function getPropsMap() {
     FieldsetRoot,
     FieldsetRootProvider,
     FileUploadClearTrigger,
+    FileUploadContext,
     FileUploadDropzone,
     FileUploadHiddenInput,
     FileUploadItem,
@@ -574,6 +574,7 @@ export function getPropsMap() {
     NumberInputValueText,
     PaginationEllipsis,
     PaginationItem,
+    PaginationContext,
     PaginationNextTrigger,
     PaginationPrevTrigger,
     PaginationRoot,
@@ -596,26 +597,17 @@ export function getPropsMap() {
     PopoverRootProvider,
     PopoverTitle,
     PopoverTrigger,
-    ProgressCircularCircle,
-    ProgressCircularCircleRange,
-    ProgressCircularCircleTrack,
-    ProgressCircularLabel,
     ProgressCircularRange,
-    ProgressCircularRoot,
-    ProgressCircularRootProvider,
     ProgressCircularTrack,
-    ProgressCircularValueText,
-    ProgressCircularView,
-    ProgressLinearCircle,
-    ProgressLinearCircleRange,
-    ProgressLinearCircleTrack,
-    ProgressLinearLabel,
-    ProgressLinearRange,
-    ProgressLinearRoot,
-    ProgressLinearRootProvider,
-    ProgressLinearTrack,
-    ProgressLinearValueText,
-    ProgressLinearView,
+    ProgressCircle,
+    ProgressCircleRange,
+    ProgressCircleTrack,
+    ProgressLabel,
+    ProgressRange,
+    ProgressRoot,
+    ProgressRootProvider,
+    ProgressTrack,
+    ProgressValueText,
     QRCodeFrame,
     QRCodeOverlay,
     QRCodePattern,
@@ -630,6 +622,7 @@ export function getPropsMap() {
     RadioGroupRoot,
     RadioGroupRootProvider,
     RatingGroupControl,
+    RatingGroupContext,
     RatingGroupHiddenInput,
     RatingGroupItem,
     RatingGroupLabel,
@@ -704,12 +697,13 @@ export function getPropsMap() {
     SwitchThumb,
     TabsRoot,
     TabsRootProvider,
-    TabsTabContent,
-    TabsTabIndicator,
-    TabsTabList,
-    TabsTabTrigger,
+    TabsContent,
+    TabsIndicator,
+    TabsList,
+    TabsTrigger,
     TagsInputClearTrigger,
     TagsInputControl,
+    TagsInputContext,
     TagsInputHiddenInput,
     TagsInputInput,
     TagsInputItem,
@@ -853,6 +847,7 @@ export function getComponentsMap() {
     [ComboboxTrigger, ComboboxTrigger.name, `<${ComboboxTrigger.name}></${ComboboxTrigger.name}`],
     [DatePickerClearTrigger, DatePickerClearTrigger.name, `<${DatePickerClearTrigger.name}></${DatePickerClearTrigger.name}`],
     [DatePickerContent, DatePickerContent.name, `<${DatePickerContent.name}></${DatePickerContent.name}`],
+    [DatePickerContext, DatePickerContext.name, `<${DatePickerContext.name}></${DatePickerContext.name}`],
     [DatePickerControl, DatePickerControl.name, `<${DatePickerControl.name}></${DatePickerControl.name}`],
     [DatePickerInput, DatePickerInput.name, `<${DatePickerInput.name}></${DatePickerInput.name}`],
     [DatePickerLabel, DatePickerLabel.name, `<${DatePickerLabel.name}></${DatePickerLabel.name}`],
@@ -888,6 +883,7 @@ export function getComponentsMap() {
     [EditableArea, EditableArea.name, `<${EditableArea.name}></${EditableArea.name}`],
     [EditableCancelTrigger, EditableCancelTrigger.name, `<${EditableCancelTrigger.name}></${EditableCancelTrigger.name}`],
     [EditableControl, EditableControl.name, `<${EditableControl.name}></${EditableControl.name}`],
+    [EditableContext, EditableContext.name, `<${EditableContext.name}></${EditableContext.name}`],
     [EditableEditTrigger, EditableEditTrigger.name, `<${EditableEditTrigger.name}></${EditableEditTrigger.name}`],
     [EditableInput, EditableInput.name, `<${EditableInput.name}></${EditableInput.name}`],
     [EditableLabel, EditableLabel.name, `<${EditableLabel.name}></${EditableLabel.name}`],
@@ -910,6 +906,7 @@ export function getComponentsMap() {
     [FieldsetRoot, FieldsetRoot.name, `<${FieldsetRoot.name}></${FieldsetRoot.name}`],
     [FieldsetRootProvider, FieldsetRootProvider.name, `<${FieldsetRootProvider.name}></${FieldsetRootProvider.name}`],
     [FileUploadClearTrigger, FileUploadClearTrigger.name, `<${FileUploadClearTrigger.name}></${FileUploadClearTrigger.name}`],
+    [FileUploadContext, FileUploadContext.name, `<${FileUploadContext.name}></${FileUploadContext.name}`],
     [FileUploadDropzone, FileUploadDropzone.name, `<${FileUploadDropzone.name}></${FileUploadDropzone.name}`],
     [FileUploadHiddenInput, FileUploadHiddenInput.name, `<${FileUploadHiddenInput.name}></${FileUploadHiddenInput.name}`],
     [FileUploadItem, FileUploadItem.name, `<${FileUploadItem.name}></${FileUploadItem.name}`],
@@ -960,6 +957,7 @@ export function getComponentsMap() {
     [NumberInputValueText, NumberInputValueText.name, `<${NumberInputValueText.name}></${NumberInputValueText.name}`],
     [PaginationEllipsis, PaginationEllipsis.name, `<${PaginationEllipsis.name}></${PaginationEllipsis.name}`],
     [PaginationItem, PaginationItem.name, `<${PaginationItem.name}></${PaginationItem.name}`],
+    [PaginationContext, PaginationContext.name, `<${PaginationContext.name}></${PaginationContext.name}`],
     [PaginationNextTrigger, PaginationNextTrigger.name, `<${PaginationNextTrigger.name}></${PaginationNextTrigger.name}`],
     [PaginationPrevTrigger, PaginationPrevTrigger.name, `<${PaginationPrevTrigger.name}></${PaginationPrevTrigger.name}`],
     [PaginationRoot, PaginationRoot.name, `<${PaginationRoot.name}></${PaginationRoot.name}`],
@@ -982,26 +980,17 @@ export function getComponentsMap() {
     [PopoverRootProvider, PopoverRootProvider.name, `<${PopoverRootProvider.name}></${PopoverRootProvider.name}`],
     [PopoverTitle, PopoverTitle.name, `<${PopoverTitle.name}></${PopoverTitle.name}`],
     [PopoverTrigger, PopoverTrigger.name, `<${PopoverTrigger.name}></${PopoverTrigger.name}`],
-    [ProgressCircularCircle, ProgressCircularCircle.name, `<${ProgressCircularCircle.name}></${ProgressCircularCircle.name}`],
-    [ProgressCircularCircleRange, ProgressCircularCircleRange.name, `<${ProgressCircularCircleRange.name}></${ProgressCircularCircleRange.name}`],
-    [ProgressCircularCircleTrack, ProgressCircularCircleTrack.name, `<${ProgressCircularCircleTrack.name}></${ProgressCircularCircleTrack.name}`],
-    [ProgressCircularLabel, ProgressCircularLabel.name, `<${ProgressCircularLabel.name}></${ProgressCircularLabel.name}`],
     [ProgressCircularRange, ProgressCircularRange.name, `<${ProgressCircularRange.name}></${ProgressCircularRange.name}`],
-    [ProgressCircularRoot, ProgressCircularRoot.name, `<${ProgressCircularRoot.name}></${ProgressCircularRoot.name}`],
-    [ProgressCircularRootProvider, ProgressCircularRootProvider.name, `<${ProgressCircularRootProvider.name}></${ProgressCircularRootProvider.name}`],
     [ProgressCircularTrack, ProgressCircularTrack.name, `<${ProgressCircularTrack.name}></${ProgressCircularTrack.name}`],
-    [ProgressCircularValueText, ProgressCircularValueText.name, `<${ProgressCircularValueText.name}></${ProgressCircularValueText.name}`],
-    [ProgressCircularView, ProgressCircularView.name, `<${ProgressCircularView.name}></${ProgressCircularView.name}`],
-    [ProgressLinearCircle, ProgressLinearCircle.name, `<${ProgressLinearCircle.name}></${ProgressLinearCircle.name}`],
-    [ProgressLinearCircleRange, ProgressLinearCircleRange.name, `<${ProgressLinearCircleRange.name}></${ProgressLinearCircleRange.name}`],
-    [ProgressLinearCircleTrack, ProgressLinearCircleTrack.name, `<${ProgressLinearCircleTrack.name}></${ProgressLinearCircleTrack.name}`],
-    [ProgressLinearLabel, ProgressLinearLabel.name, `<${ProgressLinearLabel.name}></${ProgressLinearLabel.name}`],
-    [ProgressLinearRange, ProgressLinearRange.name, `<${ProgressLinearRange.name}></${ProgressLinearRange.name}`],
-    [ProgressLinearRoot, ProgressLinearRoot.name, `<${ProgressLinearRoot.name}></${ProgressLinearRoot.name}`],
-    [ProgressLinearRootProvider, ProgressLinearRootProvider.name, `<${ProgressLinearRootProvider.name}></${ProgressLinearRootProvider.name}`],
-    [ProgressLinearTrack, ProgressLinearTrack.name, `<${ProgressLinearTrack.name}></${ProgressLinearTrack.name}`],
-    [ProgressLinearValueText, ProgressLinearValueText.name, `<${ProgressLinearValueText.name}></${ProgressLinearValueText.name}`],
-    [ProgressLinearView, ProgressLinearView.name, `<${ProgressLinearView.name}></${ProgressLinearView.name}`],
+    [ProgressCircle, ProgressCircle.name, `<${ProgressCircle.name}></${ProgressCircle.name}`],
+    [ProgressCircleRange, ProgressCircleRange.name, `<${ProgressCircleRange.name}></${ProgressCircleRange.name}`],
+    [ProgressCircleTrack, ProgressCircleTrack.name, `<${ProgressCircleTrack.name}></${ProgressCircleTrack.name}`],
+    [ProgressLabel, ProgressLabel.name, `<${ProgressLabel.name}></${ProgressLabel.name}`],
+    [ProgressRange, ProgressRange.name, `<${ProgressRange.name}></${ProgressRange.name}`],
+    [ProgressRoot, ProgressRoot.name, `<${ProgressRoot.name}></${ProgressRoot.name}`],
+    [ProgressRootProvider, ProgressRootProvider.name, `<${ProgressRootProvider.name}></${ProgressRootProvider.name}`],
+    [ProgressTrack, ProgressTrack.name, `<${ProgressTrack.name}></${ProgressTrack.name}`],
+    [ProgressValueText, ProgressValueText.name, `<${ProgressValueText.name}></${ProgressValueText.name}`],
     [QRCodeFrame, QRCodeFrame.name, `<${QRCodeFrame.name}></${QRCodeFrame.name}`],
     [QRCodeOverlay, QRCodeOverlay.name, `<${QRCodeOverlay.name}></${QRCodeOverlay.name}`],
     [QRCodePattern, QRCodePattern.name, `<${QRCodePattern.name}></${QRCodePattern.name}`],
@@ -1016,6 +1005,7 @@ export function getComponentsMap() {
     [RadioGroupRoot, RadioGroupRoot.name, `<${RadioGroupRoot.name}></${RadioGroupRoot.name}`],
     [RadioGroupRootProvider, RadioGroupRootProvider.name, `<${RadioGroupRootProvider.name}></${RadioGroupRootProvider.name}`],
     [RatingGroupControl, RatingGroupControl.name, `<${RatingGroupControl.name}></${RatingGroupControl.name}`],
+    [RatingGroupContext, RatingGroupContext.name, `<${RatingGroupContext.name}></${RatingGroupContext.name}`],
     [RatingGroupHiddenInput, RatingGroupHiddenInput.name, `<${RatingGroupHiddenInput.name}></${RatingGroupHiddenInput.name}`],
     [RatingGroupItem, RatingGroupItem.name, `<${RatingGroupItem.name}></${RatingGroupItem.name}`],
     [RatingGroupLabel, RatingGroupLabel.name, `<${RatingGroupLabel.name}></${RatingGroupLabel.name}`],
@@ -1090,12 +1080,13 @@ export function getComponentsMap() {
     [SwitchThumb, SwitchThumb.name, `<${SwitchThumb.name}></${SwitchThumb.name}`],
     [TabsRoot, TabsRoot.name, `<${TabsRoot.name}></${TabsRoot.name}`],
     [TabsRootProvider, TabsRootProvider.name, `<${TabsRootProvider.name}></${TabsRootProvider.name}`],
-    [TabsTabContent, TabsTabContent.name, `<${TabsTabContent.name}></${TabsTabContent.name}`],
-    [TabsTabIndicator, TabsTabIndicator.name, `<${TabsTabIndicator.name}></${TabsTabIndicator.name}`],
-    [TabsTabList, TabsTabList.name, `<${TabsTabList.name}></${TabsTabList.name}`],
-    [TabsTabTrigger, TabsTabTrigger.name, `<${TabsTabTrigger.name}></${TabsTabTrigger.name}`],
+    [TabsContent, TabsContent.name, `<${TabsContent.name}></${TabsContent.name}`],
+    [TabsIndicator, TabsIndicator.name, `<${TabsIndicator.name}></${TabsIndicator.name}`],
+    [TabsList, TabsList.name, `<${TabsList.name}></${TabsList.name}`],
+    [TabsTrigger, TabsTrigger.name, `<${TabsTrigger.name}></${TabsTrigger.name}`],
     [TagsInputClearTrigger, TagsInputClearTrigger.name, `<${TagsInputClearTrigger.name}></${TagsInputClearTrigger.name}`],
     [TagsInputControl, TagsInputControl.name, `<${TagsInputControl.name}></${TagsInputControl.name}`],
+    [TagsInputContext, TagsInputContext.name, `<${TagsInputContext.name}></${TagsInputContext.name}`],
     [TagsInputHiddenInput, TagsInputHiddenInput.name, `<${TagsInputHiddenInput.name}></${TagsInputHiddenInput.name}`],
     [TagsInputInput, TagsInputInput.name, `<${TagsInputInput.name}></${TagsInputInput.name}`],
     [TagsInputItem, TagsInputItem.name, `<${TagsInputItem.name}></${TagsInputItem.name}`],

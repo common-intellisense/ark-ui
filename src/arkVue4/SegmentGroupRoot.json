@@ -3,7 +3,10 @@
   "description": "Organizes and navigates between sections in a view.",
   "description_zh": "Organizes and navigates between sections in a view.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "SegmentGroup.Indicator",
+    "SegmentGroup.Item"
+  ],
   "filename": "SegmentGroupRoot",
   "link": "https://ark-ui.com/vue/docs/components/segment-group",
   "link_zh": "https://ark-ui.com/vue/docs/components/segment-group",

@@ -3,7 +3,10 @@
   "description": "An interactive component that can be expanded or collapsed.",
   "description_zh": "An interactive component that can be expanded or collapsed.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Collapsible.Trigger",
+    "Collapsible.Content"
+  ],
   "filename": "CollapsibleRoot",
   "link": "https://ark-ui.com/vue/docs/components/collapsible",
   "link_zh": "https://ark-ui.com/vue/docs/components/collapsible",

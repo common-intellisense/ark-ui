@@ -3,7 +3,10 @@
   "description": "Flexible navigation tool with various modes and features.",
   "description_zh": "Flexible navigation tool with various modes and features.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Tabs.List",
+    "Tabs.Content"
+  ],
   "filename": "TabsRoot",
   "link": "https://ark-ui.com/vue/docs/components/tabs",
   "link_zh": "https://ark-ui.com/vue/docs/components/tabs",

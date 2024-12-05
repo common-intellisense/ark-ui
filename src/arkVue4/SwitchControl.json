@@ -3,7 +3,9 @@
   "description": "A control element that allows for a binary selection.",
   "description_zh": "A control element that allows for a binary selection.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Switch.Thumb"
+  ],
   "filename": "SwitchControl",
   "link": "https://ark-ui.com/vue/docs/components/switch",
   "link_zh": "https://ark-ui.com/vue/docs/components/switch",

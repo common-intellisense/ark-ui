@@ -3,7 +3,11 @@
   "description": "For pin or verification codes with auto-focus transfer and masking options.",
   "description_zh": "For pin or verification codes with auto-focus transfer and masking options.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "PinInput.Label",
+    "PinInput.Control",
+    "PinInput.HiddenInput"
+  ],
   "filename": "PinInputRoot",
   "link": "https://ark-ui.com/vue/docs/components/pin-input",
   "link_zh": "https://ark-ui.com/vue/docs/components/pin-input",

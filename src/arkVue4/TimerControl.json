@@ -3,7 +3,9 @@
   "description": "Used to record the time elapsed from zero or since a specified target time.",
   "description_zh": "Used to record the time elapsed from zero or since a specified target time.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Timer.ActionTrigger"
+  ],
   "filename": "TimerControl",
   "link": "https://ark-ui.com/vue/docs/components/timer",
   "link_zh": "https://ark-ui.com/vue/docs/components/timer",

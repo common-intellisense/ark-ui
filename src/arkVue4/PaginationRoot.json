@@ -3,7 +3,10 @@
   "description": "A navigation component that allows users to browse through pages.",
   "description_zh": "A navigation component that allows users to browse through pages.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Pagination.PrevTrigger",
+    "Pagination.Context"
+  ],
   "filename": "PaginationRoot",
   "link": "https://ark-ui.com/vue/docs/components/pagination",
   "link_zh": "https://ark-ui.com/vue/docs/components/pagination",

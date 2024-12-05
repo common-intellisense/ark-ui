@@ -3,7 +3,10 @@
   "description": "A label that provides information on hover or focus.",
   "description_zh": "A label that provides information on hover or focus.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Tooltip.Trigger",
+    "Tooltip.Positioner"
+  ],
   "filename": "TooltipRoot",
   "link": "https://ark-ui.com/vue/docs/components/tooltip",
   "link_zh": "https://ark-ui.com/vue/docs/components/tooltip",

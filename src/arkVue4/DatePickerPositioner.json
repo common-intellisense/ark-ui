@@ -3,7 +3,9 @@
   "description": "A component that allows users to select a date from a calendar.",
   "description_zh": "A component that allows users to select a date from a calendar.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "DatePicker.Content"
+  ],
   "filename": "DatePickerPositioner",
   "link": "https://ark-ui.com/vue/docs/components/date-picker",
   "link_zh": "https://ark-ui.com/vue/docs/components/date-picker",

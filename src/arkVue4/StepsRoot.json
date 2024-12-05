@@ -3,7 +3,13 @@
   "description": "Used to guide users through a series of steps in a process",
   "description_zh": "Used to guide users through a series of steps in a process",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Steps.List",
+    "Steps.Content",
+    "Steps.CompletedContent",
+    "Steps.PrevTrigger",
+    "Steps.NextTrigger"
+  ],
   "filename": "StepsRoot",
   "link": "https://ark-ui.com/vue/docs/components/steps",
   "link_zh": "https://ark-ui.com/vue/docs/components/steps",

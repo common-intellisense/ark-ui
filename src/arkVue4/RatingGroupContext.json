@@ -1,0 +1,15 @@
+{
+  "name": "RatingGroup.Context",
+  "description": "Allows users to rate items using a set of icons.",
+  "description_zh": "Allows users to rate items using a set of icons.",
+  "slots": [],
+  "suggestions": [
+    "RatingGroup.Item"
+  ],
+  "filename": "RatingGroupContext",
+  "link": "https://ark-ui.com/vue/docs/components/rating-group",
+  "link_zh": "https://ark-ui.com/vue/docs/components/rating-group",
+  "props": {},
+  "methods": [],
+  "events": []
+}

@@ -3,7 +3,11 @@
   "description": "A message that appears on the screen to provide feedback on an action.",
   "description_zh": "A message that appears on the screen to provide feedback on an action.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Toast.Title",
+    "Toast.Description",
+    "Toast.CloseTrigger"
+  ],
   "filename": "ToastRoot",
   "link": "https://ark-ui.com/vue/docs/components/toast",
   "link_zh": "https://ark-ui.com/vue/docs/components/toast",

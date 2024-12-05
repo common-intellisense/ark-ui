@@ -3,7 +3,12 @@
   "description": "Provides a flexible container for form inputs, labels, and helper text.",
   "description_zh": "Provides a flexible container for form inputs, labels, and helper text.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Field.Label",
+    "Field.Input",
+    "Field.HelperText",
+    "Field.ErrorText"
+  ],
   "filename": "FieldRoot",
   "link": "https://ark-ui.com/vue/docs/components/field",
   "link_zh": "https://ark-ui.com/vue/docs/components/field",

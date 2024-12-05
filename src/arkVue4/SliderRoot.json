@@ -3,7 +3,11 @@
   "description": "A control element that allows for a range of selections.",
   "description_zh": "A control element that allows for a range of selections.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Slider.Label",
+    "Slider.ValueText",
+    "Slider.Control"
+  ],
   "filename": "SliderRoot",
   "link": "https://ark-ui.com/vue/docs/components/slider",
   "link_zh": "https://ark-ui.com/vue/docs/components/slider",

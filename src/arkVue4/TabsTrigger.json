@@ -1,10 +1,10 @@
 {
-  "name": "Tabs.TabContent",
+  "name": "Tabs.Trigger",
   "description": "Flexible navigation tool with various modes and features.",
   "description_zh": "Flexible navigation tool with various modes and features.",
   "slots": [],
   "suggestions": [],
-  "filename": "TabsTabContent",
+  "filename": "TabsTrigger",
   "link": "https://ark-ui.com/vue/docs/components/tabs",
   "link_zh": "https://ark-ui.com/vue/docs/components/tabs",
   "props": {
@@ -22,6 +22,13 @@
       "type": "boolean",
       "description": "Use the provided child element as the default rendered element, combining their props and behavior.",
       "description_zh": "使用提供的子元素作为默认渲染元素，结合它们的 props 和行为。"
+    },
+    "disabled": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the tab is disabled",
+      "description_zh": "选项卡是否处于禁用状态"
     }
   },
   "methods": [],

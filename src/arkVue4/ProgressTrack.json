@@ -1,10 +1,12 @@
 {
-  "name": "ProgressLinear.ValueText",
+  "name": "Progress.Track",
   "description": "An element that shows either determinate or indeterminate progress.",
   "description_zh": "An element that shows either determinate or indeterminate progress.",
   "slots": [],
-  "suggestions": [],
-  "filename": "ProgressLinearValueText",
+  "suggestions": [
+    "Progress.Range"
+  ],
+  "filename": "ProgressTrack",
   "link": "https://ark-ui.com/vue/docs/components/progress-linear",
   "link_zh": "https://ark-ui.com/vue/docs/components/progress-linear",
   "props": {

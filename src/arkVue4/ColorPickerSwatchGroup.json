@@ -3,7 +3,9 @@
   "description": "A component that allows users to select a color from a color picker.",
   "description_zh": "A component that allows users to select a color from a color picker.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "ColorPicker.SwatchTrigger"
+  ],
   "filename": "ColorPickerSwatchGroup",
   "link": "https://ark-ui.com/vue/docs/components/color-picker",
   "link_zh": "https://ark-ui.com/vue/docs/components/color-picker",

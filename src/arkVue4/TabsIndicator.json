@@ -1,12 +1,12 @@
 {
-  "name": "ProgressLinear.Track",
-  "description": "An element that shows either determinate or indeterminate progress.",
-  "description_zh": "An element that shows either determinate or indeterminate progress.",
+  "name": "Tabs.Indicator",
+  "description": "Flexible navigation tool with various modes and features.",
+  "description_zh": "Flexible navigation tool with various modes and features.",
   "slots": [],
   "suggestions": [],
-  "filename": "ProgressLinearTrack",
-  "link": "https://ark-ui.com/vue/docs/components/progress-linear",
-  "link_zh": "https://ark-ui.com/vue/docs/components/progress-linear",
+  "filename": "TabsIndicator",
+  "link": "https://ark-ui.com/vue/docs/components/tabs",
+  "link_zh": "https://ark-ui.com/vue/docs/components/tabs",
   "props": {
     "asChild": {
       "default": "",

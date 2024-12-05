@@ -1,13 +1,21 @@
 {
-  "name": "Tabs.TabIndicator",
+  "name": "Tabs.Content",
   "description": "Flexible navigation tool with various modes and features.",
   "description_zh": "Flexible navigation tool with various modes and features.",
   "slots": [],
   "suggestions": [],
-  "filename": "TabsTabIndicator",
+  "filename": "TabsContent",
   "link": "https://ark-ui.com/vue/docs/components/tabs",
   "link_zh": "https://ark-ui.com/vue/docs/components/tabs",
   "props": {
+    "value": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The value of the tab",
+      "description_zh": "选项卡的值",
+      "required": true
+    },
     "asChild": {
       "default": "",
       "value": "",

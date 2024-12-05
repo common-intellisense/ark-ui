@@ -1,12 +1,17 @@
 {
-  "name": "ProgressLinear.Root",
+  "name": "Progress.Root",
   "description": "An element that shows either determinate or indeterminate progress.",
   "description_zh": "An element that shows either determinate or indeterminate progress.",
   "slots": [],
-  "suggestions": [],
-  "filename": "ProgressLinearRoot",
-  "link": "https://ark-ui.com/vue/docs/components/progress-linear",
-  "link_zh": "https://ark-ui.com/vue/docs/components/progress-linear",
+  "suggestions": [
+    "Progress.Label",
+    "Progress.ValueText",
+    "Progress.Circle",
+    "Progress.Track"
+  ],
+  "filename": "ProgressRoot",
+  "link": "https://ark-ui.com/vue/docs/components/progress-circular",
+  "link_zh": "https://ark-ui.com/vue/docs/components/progress-circular",
   "props": {
     "asChild": {
       "default": "",

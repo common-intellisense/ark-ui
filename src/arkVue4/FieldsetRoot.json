@@ -3,7 +3,11 @@
   "description": "A set of form controls optionally grouped under a common name.",
   "description_zh": "A set of form controls optionally grouped under a common name.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Fieldset.Legend",
+    "Fieldset.HelperText",
+    "Fieldset.ErrorText"
+  ],
   "filename": "FieldsetRoot",
   "link": "https://ark-ui.com/vue/docs/components/fieldset",
   "link_zh": "https://ark-ui.com/vue/docs/components/fieldset",

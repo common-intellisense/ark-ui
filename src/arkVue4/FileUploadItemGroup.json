@@ -3,7 +3,9 @@
   "description": "A component that is used to upload multiple files.",
   "description_zh": "A component that is used to upload multiple files.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "FileUpload.Context"
+  ],
   "filename": "FileUploadItemGroup",
   "link": "https://ark-ui.com/vue/docs/components/file-upload",
   "link_zh": "https://ark-ui.com/vue/docs/components/file-upload",

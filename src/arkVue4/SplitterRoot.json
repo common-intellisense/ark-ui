@@ -3,7 +3,10 @@
   "description": "A component that divides your interface into resizable sections",
   "description_zh": "A component that divides your interface into resizable sections",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Splitter.Panel",
+    "Splitter.ResizeTrigger"
+  ],
   "filename": "SplitterRoot",
   "link": "https://ark-ui.com/vue/docs/components/splitter",
   "link_zh": "https://ark-ui.com/vue/docs/components/splitter",

@@ -3,7 +3,11 @@
   "description": "A single input field that combines the functionality of a select and input.",
   "description_zh": "A single input field that combines the functionality of a select and input.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Combobox.Input",
+    "Combobox.Trigger",
+    "Combobox.ClearTrigger"
+  ],
   "filename": "ComboboxControl",
   "link": "https://ark-ui.com/vue/docs/components/combobox",
   "link_zh": "https://ark-ui.com/vue/docs/components/combobox",

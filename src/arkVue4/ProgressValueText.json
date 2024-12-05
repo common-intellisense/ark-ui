@@ -1,20 +1,13 @@
 {
-  "name": "ProgressLinear.RootProvider",
+  "name": "Progress.ValueText",
   "description": "An element that shows either determinate or indeterminate progress.",
   "description_zh": "An element that shows either determinate or indeterminate progress.",
   "slots": [],
   "suggestions": [],
-  "filename": "ProgressLinearRootProvider",
+  "filename": "ProgressLinearValueText",
   "link": "https://ark-ui.com/vue/docs/components/progress-linear",
   "link_zh": "https://ark-ui.com/vue/docs/components/progress-linear",
   "props": {
-    "value": {
-      "default": "",
-      "value": "",
-      "type": "MachineApi<PropTypes>",
-      "description": "",
-      "description_zh": ""
-    },
     "asChild": {
       "default": "",
       "value": "",

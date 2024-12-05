@@ -3,7 +3,10 @@
   "description": "A component that allows users to edit text in place.",
   "description_zh": "A component that allows users to edit text in place.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Editable.Input",
+    "Editable.Preview"
+  ],
   "filename": "EditableArea",
   "link": "https://ark-ui.com/vue/docs/components/editable",
   "link_zh": "https://ark-ui.com/vue/docs/components/editable",

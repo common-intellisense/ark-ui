@@ -3,7 +3,12 @@
   "description": "A field that allows user input of numeric values.",
   "description_zh": "A field that allows user input of numeric values.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "NumberInput.Label",
+    "NumberInput.Input",
+    "NumberInput.Control",
+    "Pagination.NextTrigger"
+  ],
   "filename": "NumberInputRoot",
   "link": "https://ark-ui.com/vue/docs/components/number-input",
   "link_zh": "https://ark-ui.com/vue/docs/components/number-input",

@@ -3,7 +3,10 @@
   "description": "A component to copy text to the clipboard",
   "description_zh": "A component to copy text to the clipboard",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Clipboard.Input",
+    "Clipboard.Trigger"
+  ],
   "filename": "ClipboardControl",
   "link": "https://ark-ui.com/vue/docs/components/clipboard",
   "link_zh": "https://ark-ui.com/vue/docs/components/clipboard",

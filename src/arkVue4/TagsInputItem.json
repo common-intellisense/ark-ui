@@ -3,7 +3,10 @@
   "description": "A component that allows users to add tags to an input field.",
   "description_zh": "A component that allows users to add tags to an input field.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "TagsInput.ItemPreview",
+    "TagsInput.ItemInput"
+  ],
   "filename": "TagsInputItem",
   "link": "https://ark-ui.com/vue/docs/components/tags-input",
   "link_zh": "https://ark-ui.com/vue/docs/components/tags-input",

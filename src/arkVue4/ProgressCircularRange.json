@@ -1,5 +1,5 @@
 {
-  "name": "ProgressCircular.Range",
+  "name": "Progress.CircularRange",
   "description": "An element that shows either determinate or indeterminate progress.",
   "description_zh": "An element that shows either determinate or indeterminate progress.",
   "slots": [],

@@ -3,7 +3,11 @@
   "description": "A slideshow component that cycles through elements.",
   "description_zh": "A slideshow component that cycles through elements.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Carousel.Control",
+    "Carousel.IndicatorGroup",
+    "Carousel.Viewport"
+  ],
   "filename": "CarouselRoot",
   "link": "https://ark-ui.com/vue/docs/components/carousel",
   "link_zh": "https://ark-ui.com/vue/docs/components/carousel",

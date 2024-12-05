@@ -3,7 +3,11 @@
   "description": "Allows single selection from multiple options.",
   "description_zh": "Allows single selection from multiple options.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "RadioGroup.Label",
+    "RadioGroup.Indicator",
+    "RadioGroup.Item"
+  ],
   "filename": "RadioGroupRoot",
   "link": "https://ark-ui.com/vue/docs/components/radio-group",
   "link_zh": "https://ark-ui.com/vue/docs/components/radio-group",

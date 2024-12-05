@@ -3,7 +3,9 @@
   "description": "A control element that allows for multiple selections within a set.",
   "description_zh": "A control element that allows for multiple selections within a set.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Checkbox.Root"
+  ],
   "filename": "CheckboxGroup",
   "link": "https://ark-ui.com/vue/docs/components/checkbox",
   "link_zh": "https://ark-ui.com/vue/docs/components/checkbox",

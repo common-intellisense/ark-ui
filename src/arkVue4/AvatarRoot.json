@@ -3,7 +3,10 @@
   "description": "A graphical representation of the user, often used in profile sections.",
   "description_zh": "A graphical representation of the user, often used in profile sections.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Avatar.Fallback",
+    "Avatar.Image"
+  ],
   "filename": "AvatarRoot",
   "link": "https://ark-ui.com/vue/docs/components/avatar",
   "link_zh": "https://ark-ui.com/vue/docs/components/avatar",

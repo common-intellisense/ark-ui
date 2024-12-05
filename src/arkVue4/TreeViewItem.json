@@ -3,7 +3,10 @@
   "description": "A component that is used to show a tree hierarchy.",
   "description_zh": "A component that is used to show a tree hierarchy.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "TreeView.ItemIndicator",
+    "TreeView.ItemText"
+  ],
   "filename": "TreeViewItem",
   "link": "https://ark-ui.com/vue/docs/components/tree-view",
   "link_zh": "https://ark-ui.com/vue/docs/components/tree-view",

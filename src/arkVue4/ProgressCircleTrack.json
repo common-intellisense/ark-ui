@@ -1,10 +1,10 @@
 {
-  "name": "ProgressCircular.Circle",
+  "name": "Progress.CircleTrack",
   "description": "An element that shows either determinate or indeterminate progress.",
   "description_zh": "An element that shows either determinate or indeterminate progress.",
   "slots": [],
   "suggestions": [],
-  "filename": "ProgressCircularCircle",
+  "filename": "ProgressCircleTrack",
   "link": "https://ark-ui.com/vue/docs/components/progress-circular",
   "link_zh": "https://ark-ui.com/vue/docs/components/progress-circular",
   "props": {

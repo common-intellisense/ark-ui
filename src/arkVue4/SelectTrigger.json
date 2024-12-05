@@ -3,7 +3,10 @@
   "description": "Displays a list of options for the user to pick from.",
   "description_zh": "Displays a list of options for the user to pick from.",
   "slots": [],
-  "suggestions": [],
+  "suggestions": [
+    "Select.ValueText",
+    "Select.Indicator"
+  ],
   "filename": "SelectTrigger",
   "link": "https://ark-ui.com/vue/docs/components/select",
   "link_zh": "https://ark-ui.com/vue/docs/components/select",
