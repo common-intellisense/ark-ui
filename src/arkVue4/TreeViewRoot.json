@@ -86,9 +86,9 @@
       "description_zh": "所选节点的 ID"
     },
     "selectionMode": {
-      "default": "'single'",
+      "default": "single",
       "value": "",
-      "type": "'multiple' | 'single'",
+      "type": "multiple / single",
       "description": "Whether the tree supports multiple selection\n- \"single\": only one node can be selected\n- \"multiple\": multiple nodes can be selected",
       "description_zh": "树是否支持多选\n- “single”：只能选择一个节点\n- “multiple”：可以选择多个节点"
     },

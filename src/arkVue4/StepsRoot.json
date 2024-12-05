@@ -60,7 +60,7 @@
     "orientation": {
       "default": "",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "The orientation of the stepper",
       "description_zh": "步进器的方向"
     }

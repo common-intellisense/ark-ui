@@ -39,7 +39,7 @@
     "orientation": {
       "default": "",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "The orientation of the splitter. Can be `horizontal` or `vertical`",
       "description_zh": "分流器的方向。可以是 'horizontal' 或 'vertical'"
     },

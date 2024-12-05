@@ -44,7 +44,7 @@
       "description_zh": "颜色选取器是否处于禁用状态"
     },
     "format": {
-      "default": "'rgba'",
+      "default": "rgba",
       "value": "",
       "type": "ColorFormat",
       "description": "The color format to use",

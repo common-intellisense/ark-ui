@@ -16,7 +16,7 @@
       "description_zh": "使用提供的子元素作为默认渲染元素，结合它们的 props 和行为。"
     },
     "type": {
-      "default": "'.*'",
+      "default": ".*",
       "value": "",
       "type": "string",
       "description": "The file type to match against. Matches all file types by default.",

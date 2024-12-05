@@ -107,9 +107,9 @@
       "description_zh": "组合框中元素的 ID。对合成很有用。"
     },
     "inputBehavior": {
-      "default": "'none'",
+      "default": "none",
       "value": "",
-      "type": "'autocomplete' | 'none' | 'autohighlight'",
+      "type": "autocomplete / none / autohighlight",
       "description": "Defines the auto-completion behavior of the combobox.\n\n- `autohighlight`: The first focused item is highlighted as the user types\n- `autocomplete`: Navigating the listbox with the arrow keys selects the item and the input is updated",
       "description_zh": "定义组合框的自动完成行为。\n\n- 'autohighlight'：当用户键入时，第一个聚焦的项目会高亮显示\n- 'autocomplete'：使用箭头键导航列表框会选择项目，并且输入会更新"
     },
@@ -226,9 +226,9 @@
       "description_zh": "滚动到特定索引的函数"
     },
     "selectionBehavior": {
-      "default": "'replace'",
+      "default": "replace",
       "value": "",
-      "type": "'replace' | 'clear' | 'preserve'",
+      "type": "replace / clear / preserve",
       "description": "The behavior of the combobox input when an item is selected\n\n- `replace`: The selected item string is set as the input value\n- `clear`: The input value is cleared\n- `preserve`: The input value is preserved",
       "description_zh": "选择项时组合框输入的行为\n\n- 'replace'：将所选项字符串设置为输入值\n- 'clear'：清除输入值\n- 'preserve'：保留输入值"
     },

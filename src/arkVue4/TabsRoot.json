@@ -9,9 +9,9 @@
   "link_zh": "https://ark-ui.com/vue/docs/components/tabs",
   "props": {
     "activationMode": {
-      "default": "'automatic'",
+      "default": "automatic",
       "value": "",
-      "type": "'manual' | 'automatic'",
+      "type": "manual / automatic",
       "description": "The activation mode of the tabs. Can be `manual` or `automatic`\n- `manual`: Tabs are activated when clicked or press `enter` key.\n- `automatic`: Tabs are activated when receiving focus",
       "description_zh": "选项卡的激活模式。可以是 'manual' 或 'automatic'\n- 'manual'：单击或按“enter”键时激活选项卡。\n- 'automatic'：接收焦点时激活标签页"
     },
@@ -79,9 +79,9 @@
       "description_zh": ""
     },
     "orientation": {
-      "default": "'horizontal'",
+      "default": "horizontal",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "The orientation of the tabs. Can be `horizontal` or `vertical`\n- `horizontal`: only left and right arrow key navigation will work.\n- `vertical`: only up and down arrow key navigation will work.",
       "description_zh": "选项卡的方向。可以是 'horizontal' 或 'vertical'\n- 'horizontal'：只有向左和向右箭头键导航有效。\n- 'vertical'：只有向上和向下箭头键导航有效。"
     },

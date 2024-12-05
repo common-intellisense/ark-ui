@@ -10,6 +10,7 @@ export default antfu(
   {
     rules: {
       // overrides
+      'no-template-curly-in-string': 'off',
     },
   },
 )

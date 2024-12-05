@@ -114,16 +114,16 @@
       "description_zh": "与每个滑块块关联的名称（在表单中使用时）"
     },
     "orientation": {
-      "default": "'horizontal'",
+      "default": "horizontal",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "The orientation of the slider",
       "description_zh": "滑块的方向"
     },
     "origin": {
-      "default": "'start'",
+      "default": "start",
       "value": "",
-      "type": "'start' | 'center'",
+      "type": "start / center",
       "description": "The origin of the slider range\n- \"start\": Useful when the value represents an absolute value\n- \"center\": Useful when the value represents an offset (relative)",
       "description_zh": "滑块范围的原点\n- “start”：当值表示绝对值时很有用\n- “center”：当值表示偏移量（相对）时很有用"
     },
@@ -142,9 +142,9 @@
       "description_zh": "滑块的步长值"
     },
     "thumbAlignment": {
-      "default": "'contain'",
+      "default": "contain",
       "value": "",
-      "type": "'center' | 'contain'",
+      "type": "center / contain",
       "description": "The alignment of the slider thumb relative to the track\n- `center`: the thumb will extend beyond the bounds of the slider track.\n- `contain`: the thumb will be contained within the bounds of the track.",
       "description_zh": "滑块滑块相对于轨道的对齐方式\n- 'center'：拇指将延伸到滑轨的边界之外。\n- 'contain'：Thumb 将包含在轨道的边界内。"
     },

@@ -86,9 +86,9 @@
       "description_zh": "数字输入中元素的 ID。对合成很有用。"
     },
     "inputMode": {
-      "default": "'decimal'",
+      "default": "decimal",
       "value": "",
-      "type": "'text' | 'tel' | 'numeric' | 'decimal'",
+      "type": "text / tel / numeric / decimal",
       "description": "Hints at the type of data that might be entered by the user. It also determines\nthe type of keyboard shown to the user on mobile devices",
       "description_zh": "提示用户可能输入的数据类型。它还确定\n在移动设备上向用户显示的键盘类型"
     },
@@ -100,7 +100,7 @@
       "description_zh": "数字输入值是否无效。"
     },
     "locale": {
-      "default": "'en-US'",
+      "default": "en-US",
       "value": "",
       "type": "string",
       "description": "The current locale. Based on the BCP 47 definition.",

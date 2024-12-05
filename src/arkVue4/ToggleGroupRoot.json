@@ -65,7 +65,7 @@
       "description_zh": "是否允许选择多个切换。"
     },
     "orientation": {
-      "default": "'horizontal'",
+      "default": "horizontal",
       "value": "",
       "type": "Orientation",
       "description": "The orientation of the toggle group.",

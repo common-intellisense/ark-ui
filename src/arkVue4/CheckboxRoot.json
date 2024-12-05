@@ -86,7 +86,7 @@
       "description_zh": "复选框是否为必填项"
     },
     "value": {
-      "default": "'on'",
+      "default": "on",
       "value": "",
       "type": "string",
       "description": "The value of checkbox input. Useful for form submission.",

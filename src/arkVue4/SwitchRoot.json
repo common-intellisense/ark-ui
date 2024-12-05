@@ -93,7 +93,7 @@
       "description_zh": "如果为“true”，则开关输入标记为必需，"
     },
     "value": {
-      "default": "'on'",
+      "default": "on",
       "value": "",
       "type": "string | number",
       "description": "The value of switch input. Useful for form submission.",

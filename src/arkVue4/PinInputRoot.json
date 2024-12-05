@@ -107,7 +107,7 @@
       "description_zh": "检查用户输入的输入值所依据的正则表达式。"
     },
     "placeholder": {
-      "default": "'○'",
+      "default": "○",
       "value": "",
       "type": "string",
       "description": "The placeholder text for the input",
@@ -142,9 +142,9 @@
       "description_zh": "指定标识辅助功能元素及其状态的本地化字符串"
     },
     "type": {
-      "default": "'numeric'",
+      "default": "numeric",
       "value": "",
-      "type": "'numeric' | 'alphabetic' | 'alphanumeric'",
+      "type": "numeric / alphabetic / alphanumeric",
       "description": "The type of value the pin-input should allow",
       "description_zh": "pin-input 应允许的值类型"
     }

@@ -107,9 +107,9 @@
       "description_zh": "是否将焦点恢复到在对话框打开之前具有焦点的元素"
     },
     "role": {
-      "default": "'dialog'",
+      "default": "dialog",
       "value": "",
-      "type": "'dialog' | 'alertdialog'",
+      "type": "dialog / alertdialog",
       "description": "The dialog's role",
       "description_zh": "对话框的角色"
     },

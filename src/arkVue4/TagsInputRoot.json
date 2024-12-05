@@ -39,7 +39,7 @@
     "blurBehavior": {
       "default": "",
       "value": "",
-      "type": "'add' | 'clear'",
+      "type": "add / clear",
       "description": "The behavior of the tags input when the input is blurred\n- `\"add\"`: add the input value as a new tag\n- `\"clear\"`: clear the input value",
       "description_zh": "当输入模糊时 tags input 的行为\n- '“add”'：将输入值添加为新标签\n- '“clear”'：清除输入值"
     },
@@ -51,7 +51,7 @@
       "description_zh": "首次渲染时输入的 tags 的初始值。\n当您不需要控制 tags 输入的状态时使用。"
     },
     "delimiter": {
-      "default": "','",
+      "default": ",",
       "value": "",
       "type": "string | RegExp",
       "description": "The character that serves has:\n- event key to trigger the addition of a new tag\n- character used to split tags when pasting into the input",

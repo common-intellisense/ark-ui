@@ -18,7 +18,7 @@
     "disabled": {
       "default": "",
       "value": "",
-      "type": "boolean | 'true' | 'false'",
+      "type": "boolean",
       "description": "Indicates whether the fieldset is disabled.",
       "description_zh": "指示字段集是否被禁用。"
     },

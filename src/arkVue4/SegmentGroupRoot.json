@@ -67,7 +67,7 @@
     "orientation": {
       "default": "",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "Orientation of the radio group",
       "description_zh": "无线电组的方向"
     },

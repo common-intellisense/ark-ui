@@ -1,5 +1,7 @@
+import AccordionContext from './AccordionContext.json'
 import AccordionItem from './AccordionItem.json'
 import AccordionItemContent from './AccordionItemContent.json'
+import AccordionItemContext from './AccordionItemContext.json'
 import AccordionItemIndicator from './AccordionItemIndicator.json'
 import AccordionItemTrigger from './AccordionItemTrigger.json'
 import AccordionRoot from './AccordionRoot.json'
@@ -131,12 +133,12 @@ import FieldRequiredIndicator from './FieldRequiredIndicator.json'
 import FieldRoot from './FieldRoot.json'
 import FieldRootProvider from './FieldRootProvider.json'
 import FieldSelect from './FieldSelect.json'
-import FieldTextarea from './FieldTextarea.json'
 import FieldsetErrorText from './FieldsetErrorText.json'
 import FieldsetHelperText from './FieldsetHelperText.json'
 import FieldsetLegend from './FieldsetLegend.json'
 import FieldsetRoot from './FieldsetRoot.json'
 import FieldsetRootProvider from './FieldsetRootProvider.json'
+import FieldTextarea from './FieldTextarea.json'
 import FileUploadClearTrigger from './FileUploadClearTrigger.json'
 import FileUploadDropzone from './FileUploadDropzone.json'
 import FileUploadHiddenInput from './FileUploadHiddenInput.json'
@@ -377,6 +379,8 @@ export function getPropsMap() {
   return [
     AccordionItem,
     AccordionItemContent,
+    AccordionItemContext,
+    AccordionContext,
     AccordionItemIndicator,
     AccordionItemTrigger,
     AccordionRoot,
@@ -756,6 +760,8 @@ export function getComponentsMap() {
   return [
     [AccordionItem, AccordionItem.name, `<${AccordionItem.name}></${AccordionItem.name}`],
     [AccordionItemContent, AccordionItemContent.name, `<${AccordionItemContent.name}></${AccordionItemContent.name}`],
+    [AccordionItemContext, AccordionItemContext.name, `<${AccordionItemContext.name}></${AccordionItemContext.name}`],
+    [AccordionContext, AccordionContext.name, `<${AccordionContext.name}></${AccordionContext.name}`],
     [AccordionItemIndicator, AccordionItemIndicator.name, `<${AccordionItemIndicator.name}></${AccordionItemIndicator.name}`],
     [AccordionItemTrigger, AccordionItemTrigger.name, `<${AccordionItemTrigger.name}></${AccordionItemTrigger.name}`],
     [AccordionRoot, AccordionRoot.name, `<${AccordionRoot.name}></${AccordionRoot.name}`],

@@ -23,7 +23,7 @@
       "description_zh": "签名板是否处于禁用状态。"
     },
     "drawing": {
-      "default": "'{ size: 2, simulatePressure: true }'",
+      "default": "{ size: 2, simulatePressure: true }",
       "value": "",
       "type": "DrawingOptions",
       "description": "The drawing options.",

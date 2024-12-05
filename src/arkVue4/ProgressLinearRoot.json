@@ -44,7 +44,7 @@
       "description_zh": "进度条允许的最小值。"
     },
     "orientation": {
-      "default": "'horizontal'",
+      "default": "horizontal",
       "value": "",
       "type": "Orientation",
       "description": "The orientation of the element.",

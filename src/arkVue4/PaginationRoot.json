@@ -72,9 +72,9 @@
       "description_zh": "指定标识辅助功能元素及其状态的本地化字符串"
     },
     "type": {
-      "default": "'button'",
+      "default": "button",
       "value": "",
-      "type": "'button' | 'link'",
+      "type": "button / link",
       "description": "The type of the trigger element",
       "description_zh": "触发器元素的类型"
     }

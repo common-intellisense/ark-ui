@@ -93,7 +93,7 @@
       "description_zh": "是否启用延迟挂载"
     },
     "locale": {
-      "default": "'en-US'",
+      "default": "en-US",
       "value": "",
       "type": "string",
       "description": "The locale (BCP 47 language tag) to use when formatting the date.",
@@ -163,7 +163,7 @@
       "description_zh": "日历是否为只读。"
     },
     "selectionMode": {
-      "default": "'single'",
+      "default": "single",
       "value": "",
       "type": "SelectionMode",
       "description": "The selection mode of the calendar.\n- `single` - only one date can be selected\n- `multiple` - multiple dates can be selected\n- `range` - a range of dates can be selected",
@@ -177,7 +177,7 @@
       "description_zh": "一周的第一天。\n '0' - 星期日\n '1' - 星期一\n '2' - 星期二\n '3' - 星期三\n '4' - 星期四\n '5' - 星期五\n '6' - 周六"
     },
     "timeZone": {
-      "default": "'UTC'",
+      "default": "UTC",
       "value": "",
       "type": "string",
       "description": "The time zone to use",
@@ -198,7 +198,7 @@
       "description_zh": "是否在退出时卸载。"
     },
     "view": {
-      "default": "'day'",
+      "default": "day",
       "value": "",
       "type": "DateView",
       "description": "The view of the calendar",

@@ -9,9 +9,9 @@
   "link_zh": "https://ark-ui.com/vue/docs/components/carousel",
   "props": {
     "align": {
-      "default": "'start'",
+      "default": "start",
       "value": "",
-      "type": "'start' | 'center' | 'end'",
+      "type": "start / center / end",
       "description": "The alignment of the slides in the carousel.",
       "description_zh": "轮播中幻灯片的对齐方式。"
     },
@@ -58,21 +58,21 @@
       "description_zh": "轮播是否应循环播放。"
     },
     "orientation": {
-      "default": "'horizontal'",
+      "default": "horizontal",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "The orientation of the carousel.",
       "description_zh": "轮播的方向。"
     },
     "slidesPerView": {
       "default": "1",
       "value": "",
-      "type": "number | 'auto'",
+      "type": "number / auto",
       "description": "The number of slides to show at a time.",
       "description_zh": "一次要显示的幻灯片数。"
     },
     "spacing": {
-      "default": "'0px'",
+      "default": "0px",
       "value": "",
       "type": "string",
       "description": "The amount of space between slides.",

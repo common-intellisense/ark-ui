@@ -1,0 +1,13 @@
+{
+  "name": "Accordion.ItemContext",
+  "description": "A collapsible component for displaying content in a vertical stack.",
+  "description_zh": "A collapsible component for displaying content in a vertical stack.",
+  "slots": [],
+  "suggestions": [],
+  "filename": "AccordionItemContext",
+  "link": "https://ark-ui.com/vue/docs/components/accordion",
+  "link_zh": "https://ark-ui.com/vue/docs/components/accordion",
+  "props": {},
+  "methods": [],
+  "events": []
+}

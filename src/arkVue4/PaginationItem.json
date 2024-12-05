@@ -11,7 +11,7 @@
     "type": {
       "default": "",
       "value": "",
-      "type": "'page'",
+      "type": "page",
       "description": "",
       "description_zh": ""
     },

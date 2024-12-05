@@ -68,13 +68,13 @@
       "default": "false",
       "value": "",
       "type": "boolean",
-      "description": "Whether multple accordion items can be expanded at the same time.",
+      "description": "Whether multiple accordion items can be expanded at the same time.",
       "description_zh": "是否可以同时扩展多个手风琴项。"
     },
     "orientation": {
-      "default": "'vertical'",
+      "default": "vertical",
       "value": "",
-      "type": "'horizontal' | 'vertical'",
+      "type": "horizontal / vertical",
       "description": "The orientation of the accordion items.",
       "description_zh": "折叠面板项的方向。"
     },
