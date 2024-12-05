@@ -155,28 +155,32 @@
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: string[]]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "Function called on input change",
       "description_zh": "在输入更改时调用的函数",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueComplete",
       "description": "Function called when all inputs have valid values",
       "description_zh": "当所有输入都具有有效值时调用的函数",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueInvalid",
       "description": "Function called when an invalid value is entered",
       "description_zh": "输入无效值时调用的函数",
       "params": "[details: ValueInvalidDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

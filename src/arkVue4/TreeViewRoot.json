@@ -13,7 +13,8 @@
       "value": "",
       "type": "TreeCollection<T>",
       "description": "The collection of tree nodes",
-      "description_zh": "树节点的集合"
+      "description_zh": "树节点的集合",
+      "required": true
     },
     "asChild": {
       "default": "",

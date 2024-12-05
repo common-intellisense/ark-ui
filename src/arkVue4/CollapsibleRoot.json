@@ -71,21 +71,24 @@
       "description": "Function called when the animation ends in the closed state.",
       "description_zh": "动画以 closed 状态结束时调用的函数。",
       "params": "[]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "openChange",
       "description": "Function called when the popup is opened",
       "description_zh": "打开弹出窗口时调用的函数",
       "params": "[details: OpenChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:open",
       "description": "Event handler called when the open state of the collapsible changes.",
       "description_zh": "当可折叠的 open 状态发生更改时调用的事件处理程序。",
       "params": "[open: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

@@ -13,7 +13,8 @@
       "value": "",
       "type": "type ONLY_FOR_FORMAT =\n  | `${string}:${string}`\n  | `${string}:${number}`\n  | `${number}:${string}`\n  | `${number}:${number}`",
       "description": "",
-      "description_zh": ""
+      "description_zh": "",
+      "required": true
     },
     "asChild": {
       "default": "",

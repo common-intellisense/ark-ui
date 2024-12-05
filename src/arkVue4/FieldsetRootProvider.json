@@ -13,7 +13,8 @@
       "value": "",
       "type": "{ refs: { rootRef: Ref<null, null>; }; disabled: boolean | \"true\" | \"false\" | undefined; invalid: boolean | undefined; getRootProps: () => FieldsetHTMLAttributes; getLegendProps: () => { ...; }; getHelperTextProps: () => { ...; }; getErrorTextProps: () => HTMLAttributes; }",
       "description": "",
-      "description_zh": ""
+      "description_zh": "",
+      "required": true
     },
     "asChild": {
       "default": "",

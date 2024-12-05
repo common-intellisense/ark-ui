@@ -71,14 +71,16 @@
       "description": "Function invoked when the timer is completed",
       "description_zh": "计时器完成时调用的函数",
       "params": "[]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "tick",
       "description": "Function invoked when the timer ticks",
       "description_zh": "计时器滴答作响时调用的函数",
       "params": "[details: TickDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

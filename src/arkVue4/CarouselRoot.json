@@ -92,7 +92,8 @@
       "description": "",
       "description_zh": "",
       "params": "[index: number]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

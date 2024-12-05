@@ -13,7 +13,8 @@
       "value": "",
       "type": "string",
       "description": "The unique value of the menu item option.",
-      "description_zh": "菜单项选项的唯一值。"
+      "description_zh": "菜单项选项的唯一值。",
+      "required": true
     },
     "asChild": {
       "default": "",

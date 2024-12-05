@@ -148,63 +148,72 @@
       "description": "Function called when the focus is moved outside the component",
       "description_zh": "当焦点移出组件时调用的函数",
       "params": "[event: FocusOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "formatChange",
       "description": "Function called when the color format changes",
       "description_zh": "颜色格式更改时调用的函数",
       "params": "[details: FormatChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "interactOutside",
       "description": "Function called when an interaction happens outside the component",
       "description_zh": "当交互发生在组件外部时调用的函数",
       "params": "[event: InteractOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "openChange",
       "description": "Handler that is called when the user opens or closes the color picker.",
       "description_zh": "在用户打开或关闭颜色选取器时调用的处理程序。",
       "params": "[details: OpenChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "pointerDownOutside",
       "description": "Function called when the pointer is pressed down outside the component",
       "description_zh": "在组件外部按下指针时调用的函数",
       "params": "[event: PointerDownOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: Color]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:open",
       "description": "",
       "description_zh": "",
       "params": "[open: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "Handler that is called when the value changes, as the user drags.",
       "description_zh": "Handler，该值更改时，当用户拖动时调用。",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChangeEnd",
       "description": "Handler that is called when the user stops dragging.",
       "description_zh": "当用户停止拖动时调用的 Handler。",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

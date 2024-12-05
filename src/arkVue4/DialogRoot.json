@@ -134,42 +134,48 @@
       "description": "Function called when the escape key is pressed",
       "description_zh": "按下 Esc 键时调用的函数",
       "params": "[event: KeyboardEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "focusOutside",
       "description": "Function called when the focus is moved outside the component",
       "description_zh": "当焦点移出组件时调用的函数",
       "params": "[event: FocusOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "interactOutside",
       "description": "Function called when an interaction happens outside the component",
       "description_zh": "当交互发生在组件外部时调用的函数",
       "params": "[event: InteractOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "openChange",
       "description": "Callback to be invoked when the dialog is opened or closed",
       "description_zh": "打开或关闭对话框时调用的回调",
       "params": "[details: OpenChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "pointerDownOutside",
       "description": "Function called when the pointer is pressed down outside the component",
       "description_zh": "在组件外部按下指针时调用的函数",
       "params": "[event: PointerDownOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:open",
       "description": "",
       "description_zh": "",
       "params": "[open: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

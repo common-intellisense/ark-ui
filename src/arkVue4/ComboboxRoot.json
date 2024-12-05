@@ -13,7 +13,8 @@
       "value": "",
       "type": "ListCollection<T>",
       "description": "The collection of items to display in the combobox",
-      "description_zh": "要在组合框中显示的项的集合"
+      "description_zh": "要在组合框中显示的项的集合",
+      "required": true
     },
     "allowCustomValue": {
       "default": "",

@@ -78,14 +78,16 @@
       "description": "Function called when the hover card opens or closes.",
       "description_zh": "悬停卡打开或关闭时调用的函数。",
       "params": "[details: OpenChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:open",
       "description": "",
       "description_zh": "",
       "params": "[open: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

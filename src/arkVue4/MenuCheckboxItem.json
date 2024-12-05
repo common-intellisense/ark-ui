@@ -13,14 +13,16 @@
       "value": "",
       "type": "boolean",
       "description": "Whether the option is checked",
-      "description_zh": "是否选中该选项"
+      "description_zh": "是否选中该选项",
+      "required": true
     },
     "value": {
       "default": "",
       "value": "",
       "type": "string",
       "description": "The value of the option",
-      "description_zh": "选项的值"
+      "description_zh": "选项的值",
+      "required": true
     },
     "asChild": {
       "default": "",
@@ -57,7 +59,8 @@
       "description": "",
       "description_zh": "",
       "params": "[value: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

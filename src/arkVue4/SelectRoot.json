@@ -13,7 +13,8 @@
       "value": "",
       "type": "ListCollection<T>",
       "description": "The collection of items",
-      "description_zh": "项的集合"
+      "description_zh": "项的集合",
+      "required": true
     },
     "asChild": {
       "default": "",

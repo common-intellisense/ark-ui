@@ -13,7 +13,8 @@
       "value": "",
       "type": "number[]",
       "description": "The index path of the tree node",
-      "description_zh": "树节点的索引路径"
+      "description_zh": "树节点的索引路径",
+      "required": true
     },
     "node": {
       "default": "",

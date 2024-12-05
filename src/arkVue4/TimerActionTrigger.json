@@ -13,7 +13,8 @@
       "value": "",
       "type": "TimerAction",
       "description": "",
-      "description_zh": ""
+      "description_zh": "",
+      "required": true
     },
     "asChild": {
       "default": "",

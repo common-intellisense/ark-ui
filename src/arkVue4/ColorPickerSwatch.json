@@ -13,7 +13,8 @@
       "value": "",
       "type": "string | Color",
       "description": "The color value",
-      "description_zh": "color 值"
+      "description_zh": "color 值",
+      "required": true
     },
     "asChild": {
       "default": "",

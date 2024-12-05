@@ -1,0 +1,46 @@
+{
+  "name": "Highlight",
+  "description": "Used to emphasize specific words or phrases within a larger body of text.",
+  "description_zh": "用于强调较大文本体中的特定单词或短语。",
+  "slots": [],
+  "suggestions": [],
+  "filename": "Highlight",
+  "link": "https://ark-ui.com/vue/docs/utilities/format-number",
+  "link_zh": "https://ark-ui.com/vue/docs/utilities/format-number",
+  "props": {
+    "query": {
+      "type": "string | string[]",
+      "required": true,
+      "description": "The query to highlight in the text",
+      "description_zh": "要在文本中突出显示的查询",
+      "default": "",
+      "value": ""
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "description": "The text to highlight",
+      "description_zh": "要突出显示的文本",
+      "default": "",
+      "value": ""
+    },
+    "ignoreCase": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether to ignore case while matching",
+      "description_zh": "匹配时是否忽略大小写",
+      "default": "",
+      "value": ""
+    },
+    "matchAll": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether to match multiple instances of the query",
+      "description_zh": "是否匹配查询的多个实例",
+      "default": "",
+      "value": ""
+    }
+  },
+  "methods": [],
+  "events": []
+}

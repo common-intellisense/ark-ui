@@ -1,0 +1,69 @@
+{
+  "name": "Format.Number",
+  "description": "Used to format numbers to a specific locale and options",
+  "description_zh": "用于将数字格式化为特定的区域设置和选项",
+  "slots": [],
+  "suggestions": [],
+  "filename": "FormatNumber",
+  "link": "https://ark-ui.com/vue/docs/utilities/format-number",
+  "link_zh": "https://ark-ui.com/vue/docs/utilities/format-number",
+  "props": {
+    "value": {
+      "type": "number",
+      "required": true,
+      "description": "The byte size to format",
+      "description_zh": "要格式化的字节大小"
+    },
+    "compactDisplay": {
+      "type": "long / short",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "currencyDisplay": {
+      "type": "string",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "currencySign": {
+      "type": "string",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "notation": {
+      "type": "standard / scientific / engineering / compact",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "signDisplay": {
+      "type": "auto / never / always / exceptZero",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "unit": {
+      "type": "string",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "unitDisplay": {
+      "type": "long / short / narrow",
+      "default": "",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    }
+  },
+  "methods": [],
+  "events": []
+}

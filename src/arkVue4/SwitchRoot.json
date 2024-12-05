@@ -106,14 +106,16 @@
       "description": "Function to call when the switch is clicked.",
       "description_zh": "单击开关时调用的函数。",
       "params": "[details: CheckedChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:checked",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[checked: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

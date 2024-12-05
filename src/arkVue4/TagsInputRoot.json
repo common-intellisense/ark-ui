@@ -169,56 +169,64 @@
       "description": "Function called when the focus is moved outside the component",
       "description_zh": "当焦点移出组件时调用的函数",
       "params": "[event: FocusOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "highlightChange",
       "description": "Callback fired when a tag is highlighted by pointer or keyboard navigation",
       "description_zh": "当指针或键盘导航高亮标记时触发回调",
       "params": "[details: HighlightChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "inputValueChange",
       "description": "Callback fired when the input value is updated",
       "description_zh": "更新输入值时触发的回调",
       "params": "[details: InputValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "interactOutside",
       "description": "Function called when an interaction happens outside the component",
       "description_zh": "当交互发生在组件外部时调用的函数",
       "params": "[event: InteractOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "pointerDownOutside",
       "description": "Function called when the pointer is pressed down outside the component",
       "description_zh": "在组件外部按下指针时调用的函数",
       "params": "[event: PointerDownOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: string[]]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "Callback fired when the tag values is updated",
       "description_zh": "更新标签值时触发的回调",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueInvalid",
       "description": "Callback fired when the max tag count is reached or the `validateTag` function returns `false`",
       "description_zh": "达到最大标签计数或 'validateTag' 函数返回 'false' 时触发回调",
       "params": "[details: ValidityChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

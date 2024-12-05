@@ -162,28 +162,32 @@
       "description": "Function invoked when the slider's focused index changes",
       "description_zh": "当滑块的焦点索引更改时调用的函数",
       "params": "[details: FocusChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: number[]]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "Function invoked when the value of the slider changes",
       "description_zh": "当滑块的值发生变化时调用的函数",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChangeEnd",
       "description": "Function invoked when the slider value change is done",
       "description_zh": "完成滑块值更改时调用的函数",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

@@ -92,21 +92,24 @@
       "description": "The callback fired when the focused accordion item changes.",
       "description_zh": "当焦点折叠项发生更改时触发回调。",
       "params": "[details: FocusChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: string[]]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "The callback fired when the state of expanded/collapsed accordion items changes.",
       "description_zh": "当展开/折叠的折叠折叠项的状态发生变化时触发回调。",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

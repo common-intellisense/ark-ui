@@ -1,0 +1,36 @@
+{
+  "name": "Format.Byte",
+  "description": "Used to format byte values with various options and units",
+  "description_zh": "用于使用各种选项和单位格式化字节值",
+  "slots": [],
+  "suggestions": [],
+  "filename": "FormatByte",
+  "link": "https://ark-ui.com/vue/docs/utilities/format-byte",
+  "link_zh": "https://ark-ui.com/vue/docs/utilities/format-byte",
+  "props": {
+    "value": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The byte size to format",
+      "description_zh": "要格式化的字节大小",
+      "required": true
+    },
+    "unit": {
+      "default": "",
+      "value": "",
+      "type": "bit / byte",
+      "description": "The unit granularity to display",
+      "description_zh": "要显示的单位粒度"
+    },
+    "unitDisplay": {
+      "default": "",
+      "value": "",
+      "type": "long / short / narrow",
+      "description": "The unit display format",
+      "description_zh": "单位显示格式"
+    }
+  },
+  "methods": [],
+  "events": []
+}

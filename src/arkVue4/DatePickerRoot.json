@@ -211,42 +211,48 @@
       "description": "Function called when the focused date changes.",
       "description_zh": "当聚焦日期更改时调用的函数。",
       "params": "[details: FocusChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "openChange",
       "description": "Function called when the calendar opens or closes.",
       "description_zh": "日历打开或关闭时调用的函数。",
       "params": "[details: OpenChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: DateValue[]]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:open",
       "description": "",
       "description_zh": "",
       "params": "[open: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "Function called when the value changes.",
       "description_zh": "值更改时调用的函数。",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "viewChange",
       "description": "Function called when the view changes.",
       "description_zh": "视图更改时调用的函数。",
       "params": "[details: ViewChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

@@ -127,14 +127,16 @@
       "description": "Function called when the tooltip is opened.",
       "description_zh": "打开工具提示时调用的函数。",
       "params": "[details: OpenChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:open",
       "description": "",
       "description_zh": "",
       "params": "[open: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

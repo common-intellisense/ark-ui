@@ -36,7 +36,8 @@
       "description": "",
       "description_zh": "",
       "params": "[value: string]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

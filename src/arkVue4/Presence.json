@@ -1,0 +1,61 @@
+{
+  "name": "Presence",
+  "description": "Helps control the rendering and unmounting of your content based on a given state.",
+  "description_zh": "根据给定的状态帮助控制内容的渲染和卸载。",
+  "slots": [],
+  "suggestions": [],
+  "filename": "Presence",
+  "link": "https://ark-ui.com/vue/docs/utilities/presence",
+  "link_zh": "https://ark-ui.com/vue/docs/utilities/presence",
+  "props": {
+    "asChild": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Use the provided child element as the default rendered element, combining their props and behavior.",
+      "description_zh": "使用提供的子元素作为默认渲染元素，结合它们的 props 和行为。"
+    },
+    "immediate": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "value": "",
+      "description": "Whether to synchronize the present change immediately or defer it to the next frame",
+      "description_zh": "是否立即同步 present 变化，还是推迟到下一帧"
+    },
+    "lazyMount": {
+      "type": "boolean",
+      "default": "false",
+      "value": "",
+      "required": false,
+      "description": "Whether to enable lazy mounting",
+      "description_zh": "是否启用懒加载"
+    },
+    "present": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "value": "",
+      "description": "Whether the node is present (controlled by the user)",
+      "description_zh": "节点是否存在（由用户控制）"
+    },
+    "unmountOnExit": {
+      "type": "boolean",
+      "default": "false",
+      "value": "",
+      "required": false,
+      "description": "Whether to unmount on exit.",
+      "description_zh": "是否在退出时卸载。"
+    }
+  },
+  "methods": [],
+  "events": [
+    {
+      "name": "exitComplete",
+      "description": "Function called when the animation ends in the closed state",
+      "description_zh": "在关闭状态下动画结束时调用的函数",
+      "params": "[]",
+      "required": true
+    }
+  ]
+}

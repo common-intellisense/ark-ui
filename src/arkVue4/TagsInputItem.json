@@ -13,14 +13,16 @@
       "value": "",
       "type": "string | number",
       "description": "",
-      "description_zh": ""
+      "description_zh": "",
+      "required": true
     },
     "value": {
       "default": "",
       "value": "",
       "type": "string",
       "description": "",
-      "description_zh": ""
+      "description_zh": "",
+      "required": true
     },
     "asChild": {
       "default": "",

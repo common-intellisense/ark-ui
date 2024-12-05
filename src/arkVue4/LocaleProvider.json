@@ -1,0 +1,22 @@
+{
+  "name": "LocaleProvider",
+  "description": "Locale provider for setting the locale and direction of the app.",
+  "description_zh": "用于设置应用程序的区域设置和方向的区域设置提供程序。",
+  "slots": [],
+  "suggestions": [],
+  "filename": "LocaleProvider",
+  "link": "https://ark-ui.com/vue/docs/utilities/locale",
+  "link_zh": "https://ark-ui.com/vue/docs/utilities/locale",
+  "props": {
+    "locale": {
+      "default": "en-US",
+      "value": "",
+      "type": "string",
+      "description": "The locale to use for the application",
+      "description_zh": "应用程序使用的区域设置",
+      "required": true
+    }
+  },
+  "methods": [],
+  "events": []
+}

@@ -99,14 +99,16 @@
       "description": "The callback invoked when the checked state changes.",
       "description_zh": "选中状态更改时调用的回调。",
       "params": "[details: CheckedChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:checked",
       "description": "",
       "description_zh": "",
       "params": "[checked: CheckedState]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

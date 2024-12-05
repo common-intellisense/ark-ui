@@ -13,7 +13,8 @@
       "value": "",
       "type": "{ ariaDescribedby: string; ids: { control: string; label: string; errorText: string; helperText: string; }; refs: { rootRef: Ref<null, null>; }; disabled: boolean | undefined; invalid: boolean | undefined; ... 9 more ...; getRequiredIndicatorProps: () => HTMLAttributes; }",
       "description": "",
-      "description_zh": ""
+      "description_zh": "",
+      "required": true
     },
     "asChild": {
       "default": "",

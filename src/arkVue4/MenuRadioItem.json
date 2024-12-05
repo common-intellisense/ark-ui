@@ -13,7 +13,8 @@
       "value": "",
       "type": "string",
       "description": "The value of the option",
-      "description_zh": "选项的值"
+      "description_zh": "选项的值",
+      "required": true
     },
     "asChild": {
       "default": "",

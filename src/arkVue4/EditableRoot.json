@@ -162,63 +162,72 @@
       "description": "The callback that is called when the edit mode is changed",
       "description_zh": "更改编辑模式时调用的回调",
       "params": "[details: EditChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "focusOutside",
       "description": "Function called when the focus is moved outside the component",
       "description_zh": "当焦点移出组件时调用的函数",
       "params": "[event: FocusOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "interactOutside",
       "description": "Function called when an interaction happens outside the component",
       "description_zh": "当交互发生在组件外部时调用的函数",
       "params": "[event: InteractOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "pointerDownOutside",
       "description": "Function called when the pointer is pressed down outside the component",
       "description_zh": "在组件外部按下指针时调用的函数",
       "params": "[event: PointerDownOutsideEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:edit",
       "description": "Event handler called when the edit state of the combobox changes.",
       "description_zh": "当组合框的 edit 状态发生更改时调用的事件处理程序。",
       "params": "[edit: boolean]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: string]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "The callback that is called when the editable's value is changed",
       "description_zh": "更改可编辑对象的值时调用的回调",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueCommit",
       "description": "The callback that is called when the editable's value is submitted.",
       "description_zh": "提交可编辑对象的值时调用的回调。",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueRevert",
       "description": "The callback that is called when the esc key is pressed or the cancel button is clicked",
       "description_zh": "按下 Esc 键或单击取消按钮时调用的回调",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

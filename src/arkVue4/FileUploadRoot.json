@@ -134,21 +134,24 @@
       "description": "Function called when the file is accepted",
       "description_zh": "接受文件时调用的函数",
       "params": "[details: FileAcceptDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "fileChange",
       "description": "Function called when the value changes, whether accepted or rejected",
       "description_zh": "值更改时调用的函数，无论是接受还是拒绝",
       "params": "[details: FileChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "fileReject",
       "description": "Function called when the file is rejected",
       "description_zh": "文件被拒绝时调用的函数",
       "params": "[details: FileRejectDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

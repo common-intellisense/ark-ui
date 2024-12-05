@@ -36,7 +36,8 @@
       "description": "Functional called when the image loading status changes.",
       "description_zh": "当图像加载状态更改时调用的函数。",
       "params": "[details: StatusChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

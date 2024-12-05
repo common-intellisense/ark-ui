@@ -183,28 +183,32 @@
       "description": "Function invoked when the number input is focused",
       "description_zh": "聚焦数字输入时调用的函数",
       "params": "[details: FocusChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "update:modelValue",
       "description": "The callback fired when the model value changes.",
       "description_zh": "当 model 值更改时触发回调。",
       "params": "[value: string]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueChange",
       "description": "Function invoked when the value changes",
       "description_zh": "值更改时调用的函数",
       "params": "[details: ValueChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "valueInvalid",
       "description": "Function invoked when the value overflows or underflows the min/max range",
       "description_zh": "当值溢出或下溢 min/max 范围时调用的函数",
       "params": "[details: ValueInvalidDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []

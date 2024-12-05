@@ -153,6 +153,9 @@ import FileUploadLabel from './FileUploadLabel.json'
 import FileUploadRoot from './FileUploadRoot.json'
 import FileUploadRootProvider from './FileUploadRootProvider.json'
 import FileUploadTrigger from './FileUploadTrigger.json'
+import FormatByte from './FormatByte.json'
+import FormatNumber from './FormatNumber.json'
+import Highlight from './Highlight.json'
 import HoverCardArrow from './HoverCardArrow.json'
 import HoverCardArrowTip from './HoverCardArrowTip.json'
 import HoverCardContent from './HoverCardContent.json'
@@ -160,6 +163,7 @@ import HoverCardPositioner from './HoverCardPositioner.json'
 import HoverCardRoot from './HoverCardRoot.json'
 import HoverCardRootProvider from './HoverCardRootProvider.json'
 import HoverCardTrigger from './HoverCardTrigger.json'
+import LocaleProvider from './LocaleProvider.json'
 import MenuArrow from './MenuArrow.json'
 import MenuArrowTip from './MenuArrowTip.json'
 import MenuCheckboxItem from './MenuCheckboxItem.json'
@@ -212,6 +216,7 @@ import PopoverRoot from './PopoverRoot.json'
 import PopoverRootProvider from './PopoverRootProvider.json'
 import PopoverTitle from './PopoverTitle.json'
 import PopoverTrigger from './PopoverTrigger.json'
+import Presence from './Presence.json'
 import ProgressCircularCircle from './ProgressCircularCircle.json'
 import ProgressCircularCircleRange from './ProgressCircularCircleRange.json'
 import ProgressCircularCircleTrack from './ProgressCircularCircleTrack.json'
@@ -753,6 +758,11 @@ export function getPropsMap() {
     TreeViewRoot,
     TreeViewRootProvider,
     TreeViewTree,
+    FormatByte,
+    FormatNumber,
+    Highlight,
+    LocaleProvider,
+    Presence,
   ]
 }
 
@@ -1134,5 +1144,10 @@ export function getComponentsMap() {
     [TreeViewRoot, TreeViewRoot.name, `<${TreeViewRoot.name}></${TreeViewRoot.name}`],
     [TreeViewRootProvider, TreeViewRootProvider.name, `<${TreeViewRootProvider.name}></${TreeViewRootProvider.name}`],
     [TreeViewTree, TreeViewTree.name, `<${TreeViewTree.name}></${TreeViewTree.name}`],
+    [FormatByte, FormatByte.name, `<${FormatByte.name}></${FormatByte.name}`],
+    [FormatNumber, FormatNumber.name, `<${FormatNumber.name}></${FormatNumber.name}`],
+    [Highlight, Highlight.name, `<${Highlight.name}></${Highlight.name}`],
+    [LocaleProvider, LocaleProvider.name, `<${LocaleProvider.name}></${LocaleProvider.name}`],
+    [Presence, Presence.name, `<${Presence.name}></${Presence.name}`],
   ]
 }

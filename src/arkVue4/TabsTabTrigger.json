@@ -13,7 +13,8 @@
       "value": "",
       "type": "string",
       "description": "The value of the tab",
-      "description_zh": "选项卡的值"
+      "description_zh": "选项卡的值",
+      "required": true
     },
     "asChild": {
       "default": "",

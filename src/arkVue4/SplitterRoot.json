@@ -57,14 +57,16 @@
       "description": "Function called when the splitter is resized.",
       "description_zh": "调整拆分器大小时调用的函数。",
       "params": "[details: SizeChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "sizeChangeEnd",
       "description": "Function called when the splitter resize ends.",
       "description_zh": "splitter 调整大小结束时调用的函数。",
       "params": "[details: SizeChangeDetails]",
-      "value": ""
+      "value": "",
+      "required": true
     }
   ],
   "methods": []
